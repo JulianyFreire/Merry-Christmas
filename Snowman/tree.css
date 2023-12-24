@@ -1,0 +1,57 @@
+.tree {
+    text-align: center;
+    position: relative;
+}
+
+.tree * {
+    text-align: center;
+    position: absolute;
+}
+
+.tree .trunk {
+    width: 40px;
+    height: 60px;
+    background-color: #5f3111;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.tree .leaves {
+    background: linear-gradient(45deg,
+            rgb(12, 90, 20) 0%,
+            rgb(41, 130, 28) 25%,
+            rgb(64, 159, 63) 67%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.t1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+    left: 25%;
+}
+
+.t2 {
+    width: 160px;
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 130px;
+    left: 25%;
+}
+
+.t3 {
+    width: 120px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 25%;
+}

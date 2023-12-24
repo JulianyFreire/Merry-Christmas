@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(45deg, rgb(57, 102, 162), rgb(222, 255, 252));
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ground {
+    width: 100vw;
+    height: 50%;
+    background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+    z-index: -1;
+    position: absolute;
+    margin-top: 55px;
+}
