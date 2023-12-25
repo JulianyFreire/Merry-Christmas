@@ -31,6 +31,13 @@
   position: absolute;
   left: 7.1875rem;
   top: 12.5rem;
+  transition: transform 1s ease-in-out 0ms;
+  cursor: pointer;
+}
+
+.papaiNoel:active {
+  transform: scale(1.5);
+  cursor: not-allowed;
 }
 
 .papaiNoel:before{

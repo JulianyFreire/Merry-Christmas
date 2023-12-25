@@ -10,7 +10,7 @@
 }
 
 .snowman:active {
-    transform: scale(1.7);
+    transform: scale(1.5);
     cursor: not-allowed;
 }
 
