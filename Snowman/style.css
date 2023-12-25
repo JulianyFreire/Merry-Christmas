@@ -23,3 +23,9 @@ h1{
     position: absolute;
     margin-top: 55px;
 }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
